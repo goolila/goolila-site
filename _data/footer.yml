@@ -1,0 +1,8 @@
+- name: twitter
+  link: https://twitter.com/goolilax
+- name: linkedin
+  link: https://www.linkedin.com/in/ali-gholami-63810573
+- name: github
+  link: https://github.com/goolila
+- name: gpg public key
+  link: /assets/keys/goolila-key.pub

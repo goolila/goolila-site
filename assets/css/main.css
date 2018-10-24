@@ -1,0 +1,31 @@
+body {
+	font-family: Courier;
+}
+
+a { color: blue; } /* Globally */
+
+/* Each state */
+
+a:visited { text-decoration: none; color:blue;}
+a:hover { color:black; }
+a:focus { text-decoration: none; color:blue; }
+a:hover, a:active { text-decoration: none; color:black; }
+
+.footer {
+   position: fixed;
+   left: 10;
+   bottom: 10;
+   width: 100%;
+   text-align: left;
+}
+
+@font-face {
+    font-family: SansForgetica;
+    src: url(fonts/SansForgetica-Regular.otf);
+}
+
+#forgetica  {
+    font-family: SansForgetica;
+    font-weight: regular;
+    font-size: 26;
+}

@@ -1,0 +1,5 @@
+<nav class="footer" style="font-size: 12;">
+	{% for item in site.data.footer %}
+    <a href="{{ item.link }}">{{ item.name }}</a>
+  {% endfor %}
+</nav>
